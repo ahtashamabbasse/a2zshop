@@ -1,0 +1,4 @@
+$(document).ready(function(){
+var info = $("#info").html();
+$(function(){$(".growl-example-1").show(function(){$.jGrowl(info,{sticky:!1,position:"top-right",theme:"bg-blue-alt"})}),$(".growl-example-2").show(function(){$.jGrowl(info,{sticky:!1,position:"top-right",theme:"bg-azure"})}),$(".growl-example-3").show(function(){$.jGrowl(info,{sticky:!1,position:"top-right",theme:"bg-orange"})}),$(".growl-example-4").show(function(){$.jGrowl(info,{sticky:!1,position:"top-right",theme:"bg-gray"})}),$(".growl-example-5").show(function(){$.jGrowl(info,{sticky:!1,position:"top-right",theme:"bg-green"})}),$(".growl-example-6").show(function(){$.jGrowl(info,{sticky:!1,position:"top-right",theme:"bg-red"})})});
+})
